@@ -1,0 +1,42 @@
+/* CartButtons.css */
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+  .button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Primary button style */
+.buttons {
+  background-color: rgb(94, 127, 246);
+}
+
+
+@media (max-width: 768px) {
+  .button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .button-container {
+    justify-content: center; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+}

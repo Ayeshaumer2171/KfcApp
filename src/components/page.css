@@ -1,0 +1,25 @@
+/* pagination.css */
+
+.pagination {
+    margin-top: 20px; 
+
+  }
+  
+  .page-link {
+    color:black;
+    background-color: #ffffff; 
+    border: 1px solid #dee2e6; 
+  }
+  
+  .page-link:hover {
+    background-color: purple;
+    color: #ffffff; 
+    border: 1px solid rgb(203, 14, 203); 
+  }
+  
+  .page-item.active .page-link {
+    background-color: #007bff;
+    color: #ffffff; 
+    border: 1px solid #142231; 
+  }
+  
